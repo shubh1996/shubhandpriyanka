@@ -12,7 +12,7 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .logo-container {
@@ -37,7 +37,7 @@
     border-radius: 3px;
     padding: 7px;
     margin-top:10px;
-    background-color: rgb(241, 213, 171);
+    background-color: rgba(241, 213, 171, 0.75);
     color: black;
     outline: none;
     text-decoration: none;
@@ -51,4 +51,5 @@
     text-align: center;
     padding-top: 5vh;
     width: 100%;
+    font-size: 1.75rem;
 }
