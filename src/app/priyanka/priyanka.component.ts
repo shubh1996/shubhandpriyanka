@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-priyanka',
   standalone: true,
   imports: [],
-  templateUrl: './priyanka.component.html',
+  templateUrl: './priyanka.html',
   styleUrl: './priyanka.component.scss'
 })
 export class PriyankaComponent {
