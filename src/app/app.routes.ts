@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { ShubhComponent } from './shubh/shubh.component';
 import { PriyankaComponent } from './priyanka/priyanka.component';
+import { PriyankaEnglishComponent } from './priyanka-english/priyanka-english.component';
 
 export const routes: Routes = [
     {
@@ -15,6 +16,10 @@ export const routes: Routes = [
     {
         path:'priyanka',
         component: PriyankaComponent
+    },
+    {
+        path:'pookie',
+        component: PriyankaEnglishComponent
     },
     {
         path: '**',
