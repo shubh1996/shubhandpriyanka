@@ -1,0 +1,55 @@
+.outer-container {
+    height: 98vh;
+    width: 100%;
+    background-image: url("../../assets/img2.JPG"); // fallback
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0%),
+        rgba(0, 0, 0, 50%)
+      ),
+      url("../../assets/img2.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 1.25rem;
+  }
+  
+  .logo-container {
+    display: flex;
+    padding-top: 2vh;
+  
+    .logo-design {
+      width: 20vw;
+      height: 20vw;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  .details-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 5vh;
+    .button-ps {
+      border: 1px solid black;
+      border-radius: 3px;
+      padding: 7px;
+      margin-top:10px;
+      background-color: rgba(241, 213, 171, 0.75);
+      color: black;
+      outline: none;
+      text-decoration: none;
+      :visited {
+        color: black;
+      }
+    }
+  }
+  .title-container{
+      display: flex;
+      text-align: center;
+      padding-top: 5vh;
+      width: 100%;
+      font-size: 1.75rem;
+  }
