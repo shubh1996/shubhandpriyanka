@@ -18,7 +18,7 @@ export const routes: Routes = [
         component: PriyankaComponent
     },
     {
-        path:'priyanka-english',
+        path:'priyanka-ps',
         component: PriyankaEnglishComponent
     },
     {
